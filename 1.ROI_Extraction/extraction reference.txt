@@ -1,0 +1,1 @@
+This code obtained from: https://qupath.readthedocs.io/en/stable/docs/advanced/exporting_images.html
