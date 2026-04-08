@@ -121,8 +121,6 @@ python3 "9.Soft_voting/soft_voting.py" "MM 00006" \
 
 ## Notes
 
-- Some scripts already have default paths. You can run them without arguments if those defaults match your machine setup.
-- Some default paths still point to older locations under `/home/erensr/ERTECnet`. The examples in this README use paths inside `/home/erensr/final`.
 - Some scripts are not fully parameterized yet. For example, `2.White_filtering/code.py` currently uses hard-coded paths inside the file, so you should edit the paths there before running it.
 - The ERTECNet inference script in folder `6` imports `ERTECNet_final_edition.py` from the training folder, which is why the example sets `PYTHONPATH`.
 - Step `1.ROI_Extraction` is a Groovy/QuPath step rather than a Python step.
