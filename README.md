@@ -1,6 +1,6 @@
 # Multimodal Pipeline
 
-This folder contains the final workflow for preprocessing histology tiles, training models, generating probability outputs, and combining results with soft voting. In addition, ERTECNet (Enhanced Rapid Training Echo Convolution Network) is a hybrid deep learning architecture that combines a lightweight Convolutional Neural Network (CNN) backbone with a Deep Echo State Network (ESN) readout layer. It is designed for efficient image classification, particularly suitable for medical imaging tasks (like PCam, H&E metastatic and non-metastatic images) and standard benchmarks (MNIST).
+This folder contains the final workflow for preprocessing histology tiles, training models, generating probability outputs, and combining results with soft voting. In addition, ERTECNet (Enhanced Rapid Training Echo Convolution Network) is a hybrid deep learning architecture that combines a lightweight Convolutional Neural Network (CNN) backbone with a Deep Echo State Network (ESN). It is designed for efficient image classification, particularly suitable for medical imaging tasks (like PCam, H&E metastatic and non-metastatic images) and standard benchmarks (MNIST).
  
 Most folders contain standalone scripts. In general, you can run them with:
 
